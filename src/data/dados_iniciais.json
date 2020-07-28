@@ -1,0 +1,141 @@
+{
+  "categorias": [
+    {
+      "titulo": "The classics",
+      "link": "https://www.youtube.com/watch?v=rQUbnfobVMU",
+      "cor": "#333",
+      "link_extra": {
+        "text": "See more",
+        "url": "https://www.youtube.com/results?search_query=classic+metal+songs"
+      },
+      "videos": [
+        {
+          "titulo": "A compilation with some off the bests guitar solos ever made",
+          "url": "https://www.youtube.com/watch?v=rQUbnfobVMU"
+        },
+        {
+          "titulo": "The Trooper",
+          "url": "https://www.youtube.com/watch?v=2G5rfPISIwo"
+        },
+        {
+          "titulo": "Fear of the dark",
+          "url": "https://www.youtube.com/watch?v=J0N1yY937qg"
+        },
+        {
+          "titulo": "Holy Diver",
+          "url": "https://www.youtube.com/watch?v=EhGEGIBGLu8"
+        },
+        {
+          "titulo": "Master of Puppets",
+          "url": "https://www.youtube.com/watch?v=xnKhsTXoKCI"
+        },
+        {
+          "titulo": "Symphony of Destruction",
+          "url": "https://www.youtube.com/watch?v=K5jvUXij7nU"
+        },
+        {
+          "titulo": "Breaking the Law",
+          "url": "https://www.youtube.com/watch?v=Vr3hflUHuog"
+        },
+        {
+          "titulo": "Paranoid",
+          "url": "https://www.youtube.com/watch?v=0qanF-91aJo"
+        }        
+      ]
+    },
+    {
+      "titulo": "00's hits",
+      "cor": "#333",
+      "link_extra": {
+        "text": "See more",
+        "url": "https://www.youtube.com/results?search_query=00+metal+hits"
+      },
+      "videos": [
+        {
+          "titulo": "Numb",
+          "url": "https://www.youtube.com/watch?v=kXYiU_JCYtU"
+        },
+        {
+          "titulo": "Chop Suey",
+          "url": "https://www.youtube.com/watch?v=CSvFpBOe8eY"
+        },
+        {
+          "titulo": "Phychosocial",
+          "url": "https://www.youtube.com/watch?v=5abamRO41fE"
+        },
+        {
+          "titulo": "A Little Piece of Heaven",
+          "url": "https://www.youtube.com/watch?v=KVjBCT2Lc94"
+        }, 
+        {
+          "titulo": "Bodies",
+          "url": "https://www.youtube.com/watch?v=04F4xlWSFh0"
+        }
+      ]
+    },
+    {
+      "titulo": "Thrash",
+      "cor": "#333",
+      "link_extra": {
+        "text": "See more",
+        "url": "https://www.youtube.com/results?search_query=thrash+metal"
+      },
+      "videos": [
+        {
+          "titulo": "Raining Blood",
+          "url": "https://www.youtube.com/watch?v=z8ZqFlw6hYg"
+        },
+        {
+          "titulo": "Tornado of Souls",
+          "url": "https://www.youtube.com/watch?v=sONL6QUMR9E"
+        },
+        {
+          "titulo": "Madhouse",
+          "url": "https://www.youtube.com/watch?v=C9zZEqFCjk4"
+        },
+        {
+          "titulo": "Crystal Ann/Alison Hell",
+          "url": "https://www.youtube.com/watch?v=_UElrJzJvnw"
+        },
+        {
+          "titulo": "Refuse/Resist",
+          "url": "https://www.youtube.com/watch?v=6ODNxy3YOPU"
+        },
+        {
+          "titulo": "Over the Wall",
+          "url": "https://www.youtube.com/watch?v=lqlHxV9Pvcc"
+        }
+      ]
+    },
+    {
+      "titulo": "Ballads",
+      "cor": "#333",
+      "link_extra": {
+        "text": "See more",
+        "url": "https://www.youtube.com/results?search_query=metal+ballads"
+      },
+      "videos": [
+        {
+          "titulo": "Nothing Else Matters",
+          "url": "https://www.youtube.com/watch?v=tAGnKpE4NCI"
+        },
+        {
+          "titulo": "Return to Serenity",
+          "url": "https://www.youtube.com/watch?v=bry_6P_1co4"
+        },
+        {
+          "titulo": "Dear God",
+          "url": "https://www.youtube.com/watch?v=mzX0rhF8buo"
+        },
+        {
+          "titulo": "Forever and One",
+          "url": "https://www.youtube.com/watch?v=nkkrOTr3_Ck"
+        },
+        {
+          "titulo": "A Tout le Monde",
+          "url": "https://www.youtube.com/watch?v=n9QqkcDRYFw"
+        }
+      ]
+    }
+  ]
+}
