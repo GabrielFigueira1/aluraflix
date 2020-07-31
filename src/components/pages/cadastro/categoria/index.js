@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../PageDefault';
 import FormField from '../../../FormField';
+import Button from '../../../Button';
 
 function CadastroCategoria() {
   const [categories, setCategories] = useState(['']);
@@ -18,7 +19,7 @@ function CadastroCategoria() {
     setValues({
       ...values,
       [key]: value,
-    })
+    });
   }
 
   function handleChange(props) {
@@ -26,19 +27,37 @@ function CadastroCategoria() {
       props.target.value);
   }
 
+  useEffect(() => {
+    if (window.location.href.includes('localhost')) {
+      const URL = 'http://localhost:8080/categorias';
+      fetch(URL)
+        .then(async (respostaDoServer) => {
+          if (respostaDoServer.ok) {
+            const resposta = await respostaDoServer.json();
+            setCategories(resposta);
+            return;
+          }
+          throw new Error('Não foi possível pegar os dados');
+        });
+    }
+  }, []);
+
   return (
     <PageDefault>
-      <h1>Category Register: {values.name}</h1>
+      <h1>
+        Category Register:
+        {values.name}
+      </h1>
 
       <form onSubmit={(props) => {
         props.preventDefault();
         setCategories([
           ...categories,
-          values
+          values,
         ]);
         setValues(valoresIniciais);
-      }
-      }>
+      }}
+      >
         <div>
           <FormField
             label="Category name: "
@@ -69,26 +88,24 @@ function CadastroCategoria() {
           </div>
         </div>
 
-        <button>
+        <Button>
           Register
-        </button>
+        </Button>
       </form>
 
       <ul>
-        {categories.map((category, key) => {
-          return (
-            <li key={`${category}${key}`}>
-              {category.name}
-            </li>
-          )
-        })}
+        {categories.map((category) => (
+          <li key={`${category.name}`}>
+            {category.name}
+          </li>
+        ))}
       </ul>
 
       <Link to="/">
         Return to home
       </Link>
     </PageDefault>
-  )
+  );
 }
 
 export default CadastroCategoria;
